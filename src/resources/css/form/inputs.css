@@ -1,0 +1,28 @@
+.lwc-input {
+    @apply bg-gray-50 w-full dark:bg-gray-700 dark:text-white dark:placeholder-gray-200;
+    @apply focus:border-gray-700 dark:focus:border-gray-900 border-gray-700 dark:border-gray-900;
+}
+
+.lwc-input.error {
+    @apply border-red-500 dark:border-red-500 focus:border-b-red-500 dark:focus:border-b-red-500;
+}
+
+.lwc-input.warn {
+    @apply border-yellow-500 dark:border-yellow-500 focus:border-b-yellow-500 dark:focus:border-b-yellow-500;
+}
+
+.lwc-input.success {
+    @apply border-green-500 dark:border-green-500 focus:border-b-green-500 dark:focus:border-b-green-500;
+}
+
+.lwc-input-error-message{
+    @apply text-sm text-red-500 mt-1
+}
+
+.lwc-input-warn-message{
+    @apply text-sm text-yellow-500 mt-1
+}
+
+.lwc-input-success-message{
+    @apply text-sm text-green-500 mt-1
+}

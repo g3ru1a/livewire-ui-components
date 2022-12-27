@@ -1,0 +1,31 @@
+@import "./form/inputs.css";
+
+.smooth {
+    @apply rounded-md
+}
+
+.sharp {
+    @apply rounded-none
+}
+
+.bordered {
+    @apply border border-solid
+}
+
+.borderless {
+    @apply border-0
+}
+
+.no-focus-outline {
+    @apply focus:ring-0
+}
+
+.shadowed {
+    @apply shadow-lg dark:shadow-none
+}
+
+.borderless.lwc-input.error, .bordered.lwc-input.error,
+.borderless.lwc-input.warn, .bordered.lwc-input.warn,
+.borderless.lwc-input.success, .bordered.lwc-input.success{
+    @apply border-0 border-b;
+}

@@ -1,0 +1,27 @@
+{
+    "name": "g3ru1a/livewire-ui-components",
+    "description": "Clean, Ready to use, Livewire compatible UI components",
+    "type": "components",
+    "require": {
+        "laravel/jetstream": "^2.13"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "G3ru1a\\LivewireUIComponents\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "G3ru1a",
+            "email": "egidiufarcas@maze.ws"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "G3ru1a\\LivewireUIComponents\\LivewireUIComponentsServiceProvider"
+            ]
+        }
+    }
+}
